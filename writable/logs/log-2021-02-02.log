@@ -1,0 +1,93 @@
+INFO - 2021-02-02 08:29:23 --> Controller "CodeIgniter\CLI\CommandRunner" loaded.
+INFO - 2021-02-02 08:29:27 --> Controller "App\Controllers\base\Beranda" loaded.
+CRITICAL - 2021-02-02 08:29:27 --> Unknown database 'undangin'
+#0 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query()
+#3 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\app\Models\base\BerandaModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\app\Controllers\base\Beranda.php(26): App\Models\base\BerandaModel->get_all_themes()
+#5 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(910): App\Controllers\base\Beranda->index()
+#6 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#7 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#8 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Prog...')
+#10 {main}
+INFO - 2021-02-02 08:29:32 --> Controller "App\Controllers\base\Beranda" loaded.
+CRITICAL - 2021-02-02 08:29:32 --> Unknown database 'undangin'
+#0 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query()
+#3 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\app\Models\base\BerandaModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\app\Controllers\base\Beranda.php(26): App\Models\base\BerandaModel->get_all_themes()
+#5 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(910): App\Controllers\base\Beranda->index()
+#6 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#7 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#8 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Prog...')
+#10 {main}
+INFO - 2021-02-02 08:30:09 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2021-02-02 08:30:10 --> Controller "App\Controllers\base\Beranda" loaded.
+CRITICAL - 2021-02-02 08:30:11 --> ini_set(): A session is active. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Session\Handlers\FileHandler.php(101): ini_set()
+#2 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Config\Services.php(765): CodeIgniter\Session\Handlers\FileHandler->__construct()
+#3 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Config\BaseService.php(123): CodeIgniter\Config\Services::session()
+#4 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Config\Services.php(754): CodeIgniter\Config\BaseService::getSharedInstance()
+#5 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Common.php(879): CodeIgniter\Config\Services::session()
+#6 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\app\Controllers\base\Dashboard.php(10): session()
+#7 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(882): App\Controllers\base\Dashboard->__construct()
+#8 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#9 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#10 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Prog...')
+#12 {main}
+CRITICAL - 2021-02-02 08:30:14 --> ini_set(): A session is active. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Session\Handlers\FileHandler.php(101): ini_set()
+#2 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Config\Services.php(765): CodeIgniter\Session\Handlers\FileHandler->__construct()
+#3 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Config\BaseService.php(123): CodeIgniter\Config\Services::session()
+#4 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Config\Services.php(754): CodeIgniter\Config\BaseService::getSharedInstance()
+#5 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Common.php(879): CodeIgniter\Config\Services::session()
+#6 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\app\Controllers\base\Dashboard.php(10): session()
+#7 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(882): App\Controllers\base\Dashboard->__construct()
+#8 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#9 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#10 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Prog...')
+#12 {main}
+INFO - 2021-02-02 08:30:15 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2021-02-02 08:30:15 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2021-02-02 08:30:35 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2021-02-02 08:30:36 --> Controller "App\Controllers\base\Beranda" loaded.
+CRITICAL - 2021-02-02 08:30:37 --> ini_set(): A session is active. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Session\Handlers\FileHandler.php(101): ini_set()
+#2 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Config\Services.php(765): CodeIgniter\Session\Handlers\FileHandler->__construct()
+#3 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Config\BaseService.php(123): CodeIgniter\Config\Services::session()
+#4 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Config\Services.php(754): CodeIgniter\Config\BaseService::getSharedInstance()
+#5 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Common.php(879): CodeIgniter\Config\Services::session()
+#6 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\app\Controllers\base\Dashboard.php(10): session()
+#7 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(882): App\Controllers\base\Dashboard->__construct()
+#8 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#9 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#10 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Prog...')
+#12 {main}
+CRITICAL - 2021-02-02 08:30:59 --> ini_set(): A session is active. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Session\Handlers\FileHandler.php(403): ini_set()
+#2 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Session\Handlers\FileHandler.php(117): CodeIgniter\Session\Handlers\FileHandler->configureSessionIDRegex()
+#3 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Config\Services.php(765): CodeIgniter\Session\Handlers\FileHandler->__construct()
+#4 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Config\BaseService.php(123): CodeIgniter\Config\Services::session()
+#5 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Config\Services.php(754): CodeIgniter\Config\BaseService::getSharedInstance()
+#6 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Common.php(879): CodeIgniter\Config\Services::session()
+#7 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\app\Controllers\base\Dashboard.php(10): session()
+#8 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(882): App\Controllers\base\Dashboard->__construct()
+#9 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#10 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#11 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 D:\Project\Programming\WEB PHP\MEDIA INFORMASI\premium\SIDOINIKAHV2\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Prog...')
+#13 {main}
+INFO - 2021-02-02 08:31:19 --> Controller "App\Controllers\base\Dashboard" loaded.
+INFO - 2021-02-02 08:31:28 --> Controller "App\Controllers\base\Dashboard" loaded.
+INFO - 2021-02-02 08:31:28 --> Controller "App\Controllers\base\Dashboard" loaded.
